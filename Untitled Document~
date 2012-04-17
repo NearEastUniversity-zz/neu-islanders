@@ -1,9 +1,0 @@
-(enumeration-seq
- (java.util.StringTokenizer. "asdasdasdasdad(adasd, hjyut, asdasdasd)"))
-
-
-
-(let [tok (java.util.StringTokenizer. "asdasdasdasdad(adasd, hjyut, asdasdasd)")]
-  (while (.hasMoreTokens tok)
-    (println (.nextToken tok))
-    ))
